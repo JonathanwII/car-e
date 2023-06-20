@@ -101,7 +101,7 @@ class _FaqScreenState extends State<FaqScreen>{
                     Align(
                       alignment: Alignment.centerLeft,
                       child: Text(
-                        'Car breaks squeking',
+                        'Car brakes squeking',
                         style: GoogleFonts.montserrat(
                           fontWeight: FontWeight.w600,
                           fontSize: 14,
