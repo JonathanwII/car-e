@@ -35,7 +35,10 @@ class _RepairShopScreenState extends State<RepairShopScreen>{
                 margin: const EdgeInsets.fromLTRB(30, 30, 30, 0),
                 padding: const EdgeInsets.fromLTRB(0, 0, 10, 0),
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                      bottomRight: Radius.circular(20),
+                    ),
                     color: hexStringToColor("A5D4FE"),
                     boxShadow: [
                       BoxShadow(color: Colors.black12, spreadRadius: 0.5, blurRadius: 15)
@@ -120,7 +123,10 @@ class _RepairShopScreenState extends State<RepairShopScreen>{
                 margin: const EdgeInsets.fromLTRB(30, 20, 30, 0),
                 padding: const EdgeInsets.fromLTRB(0, 0, 10, 0),
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                      bottomRight: Radius.circular(20),
+                    ),
                     color: hexStringToColor("A5D4FE"),
                     boxShadow: [
                       BoxShadow(color: Colors.black12, spreadRadius: 0.5, blurRadius: 15)
@@ -206,7 +212,10 @@ class _RepairShopScreenState extends State<RepairShopScreen>{
                 margin: const EdgeInsets.fromLTRB(30, 20, 30, 0),
                 padding: const EdgeInsets.fromLTRB(0, 0, 10, 0),
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                      bottomRight: Radius.circular(20),
+                    ),
                     color: hexStringToColor("A5D4FE"),
                     boxShadow: [
                       BoxShadow(color: Colors.black12, spreadRadius: 0.5, blurRadius: 15)
@@ -291,7 +300,10 @@ class _RepairShopScreenState extends State<RepairShopScreen>{
                 margin: const EdgeInsets.fromLTRB(30, 20, 30, 0),
                 padding: const EdgeInsets.fromLTRB(0, 0, 10, 0),
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                      bottomRight: Radius.circular(20),
+                    ),
                     color: hexStringToColor("A5D4FE"),
                     boxShadow: [
                       BoxShadow(color: Colors.black12, spreadRadius: 0.5, blurRadius: 15)
